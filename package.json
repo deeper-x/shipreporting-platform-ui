@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node_modules/node/bin/node build/index.js",
     "build": "tsc",
     "test": "./node_modules/ts-mocha/bin/ts-mocha -r ts-node src/test/*"
   },
@@ -24,6 +25,7 @@
     "@types/node": "^12.12.3",
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
+    "node": "^12.13.0",
     "npm": "^6.12.1",
     "ts-mocha": "^6.0.0",
     "ts-node": "^8.4.1",

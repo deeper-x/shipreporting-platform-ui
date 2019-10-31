@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/deeper-x/shipreporting-platform#readme",
   "dependencies": {
+    "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.3",
+    "mocha": "^6.2.2",
     "npm": "^6.12.1",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "./node_modules/mocha/bin/mocha  -r ts-node src/test/*"
+    "test": "./node_modules/ts-mocha/bin/ts-mocha -r ts-node src/test/*"
   },
   "repository": {
     "type": "git",
@@ -19,10 +19,13 @@
   },
   "homepage": "https://github.com/deeper-x/shipreporting-platform#readme",
   "dependencies": {
+    "@types/chai": "^4.2.4",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.3",
+    "chai": "^4.2.0",
     "mocha": "^6.2.2",
     "npm": "^6.12.1",
+    "ts-mocha": "^6.0.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
   },

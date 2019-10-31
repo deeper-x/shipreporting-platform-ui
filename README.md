@@ -1,4 +1,7 @@
-# shipreporting-platform
+# shipreporting-platform [WIP]
+
+[![CircleCI](https://circleci.com/gh/deeper-x/shipreporting-platform.svg?style=svg)](https://circleci.com/gh/deeper-x/shipreporting-platform)
+
 
 ## Build
 

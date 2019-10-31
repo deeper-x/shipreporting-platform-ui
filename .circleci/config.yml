@@ -17,4 +17,4 @@ jobs:
     working_directory: ~/build
 
     steps:
-      - run: node index.js
+      - run: npm test

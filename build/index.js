@@ -1,2 +1,2 @@
 "use strict";
-console.log('hello, shipreporting');
+console.log("hello, shipreporting");
